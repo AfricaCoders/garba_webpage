@@ -1,0 +1,169 @@
+header {
+    display: flex;
+    justify-content: right;
+    background-color: #21BF73;
+}
+
+nav {
+    padding: 20px;
+    width: 50%;
+    justify-content: right;
+    text-align: right;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    color: #FFFF;
+    justify-content: right;
+}
+
+li a {
+    font-size: 1.3rem;
+    margin: 20px 10px;
+    text-decoration: none;
+    color: inherit;
+}
+
+li a:hover{
+    color: #FD5E53;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #FD5E53;
+}
+
+.top-banner {
+    background-color: #FFFF;
+    color: #FD5E53;
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+.top-banner div {
+    flex: 1;
+}
+
+.top-banner img {
+    width: 46vw;
+}
+
+
+.home-title {
+    font-size: 4em;
+    width: auto;
+}
+
+.home-title, p{
+    text-align: center;
+    margin: 60px 30px;
+}
+
+.top-banner p {
+    font-size: 25px;
+    color: black;
+}
+
+.arrow-container {
+    display: flex;
+    justify-content: center;
+}
+.home-content i {
+    font-size: 40px;
+}
+
+.home-content a {
+    text-decoration: none;
+    color: inherit;
+}
+ /* ------- */
+
+.container-sellers {
+    width: 100%;
+    padding: 20px 0px;
+    height: 80vh;
+    background-color: #21BF73;
+}
+
+.container-sellers h3 {
+    font-weight: 400;
+    font-size: 2em;
+    color: #FFFF;
+    text-align: center;
+    margin: 30px;
+}
+
+.sellers{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sellers img {
+    width: 8rem;
+}
+
+.seller {
+    flex: 1;
+}
+
+.img-seller-container {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    width: 60%;
+    margin: 15px auto;
+    height: auto;
+}
+
+.info p {
+    font-size: 15px;
+    color: #FFFF;
+    margin: 0;
+    padding: 10px;
+
+}
+
+.info p:hover {
+    background-color: #B0EACD;
+}
+
+.details {
+    display: flex;
+}
+
+.attribute, 
+.value {
+    flex: 1;
+}
+
+.value{
+    width: 100%;
+    float: right;
+    text-align: right;
+    justify-content: right;
+}
+
+.order {
+    padding: 10px;
+    background-color: #FD5E53;
+    border: none;
+    text-align: center;
+    color: #FFFF;
+}
+
+.action {
+    margin: auto;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+button a {
+    text-decoration: none;
+    color: inherit;
+}

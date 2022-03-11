@@ -5,50 +5,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/global.css">
+    <link rel="stylesheet" href="assets/index.css">
     <title>Home | Only html</title>
 </head>
 <body>
     <header class="top-menu">
         <nav>
             <ul>
-                <a href="#"><li>Home</li></a>
-                <a href="about.html"><li>About</li></a>
+                <li><a href="#"><li>Home</li></a></li>
+                <li><a href="about.html"><li>About</li></a></li> 
             </ul>
         </nav>
     </header>
     <section class="top-banner">
-        <h1>Ton Garba au calme !</h1>
-        <img src="materials/pexels-dana-tentis-725991.jpg" alt="fish">
-        <i class="fas fa-arrow-down"></i>
+        <div>
+            <img src="materials/pexels-dana-tentis-725991.png" alt="fish">
+        </div>
+        <div class="home-content">
+            <h1 class="home-title">Ton Garba au calme !</h1>
+            <p>Commande ton garba tranquilement sans problème et commence bien ta journée.</p>
+            <span class="arrow-container"><a href="#"><i class="fas fa-arrow-down"></i></a></span>
+            
+        </div>  
     </section>
     <section class="container-sellers">
         <h3>Garbadroms</h3>
-        <section class="sellers">
+        <div class="sellers">
             <div class="seller">
-                <img src="materials/img/20190315_103816_0001812850605.png" alt="">
-                <p>price: 300-700+ xof</p>
-                <p>orders: 30</p>
-                <p>seller: Ali</p>
+                <span class="img-seller-container">
+                    <img  src="materials/img/images.jpeg" alt="">
+                </span>
+                <div class="info">
+                    <p>price: 300-700+ xof</p>
+                    <p>orders: 30</p>
+                    <p>seller: Ali</p>
+                </div>
+                <div class="action"><button class="order"><a href="#">Commander</a></button></div>
             </div>
             <div class="seller">
-                <img src="materials/img/garba.jpeg" alt="">
-                <p>price: 300-700+ xof</p>
-                <p>orders: 30</p>
-                <p>seller: Ali</p>
+                <span class="img-seller-container">
+                    <img  src="materials/img/images.jpeg" alt="">
+                </span>
+                <div class="info">
+                    <p>price: 300-700+ xof</p>
+                    <p>orders: 30</p>
+                    <p>seller: Ali</p>
+                </div>
+                <div class="action"><button class="order"><a href="#">Commander</a></button></div>
+
             </div>
             <div class="seller">
-                <img src="materials/img/images.jpeg" alt="">
-                <p>price: 300-700+ xof</p>
-                <p>orders: 30</p>
-                <p>seller: Ali</p>
+                <span class="img-seller-container">
+                    <img  src="materials/img/images.jpeg" alt="">
+                </span>
+                <div class="info">
+                    <p>price: 500-1700 xof</p>
+                    <p>orders: 430</p>
+                    <p>seller: Khady</p>
+                </div>
+                <div class="action"><button class="order"><a href="#">Commander</a></button></div>
             </div>
             <div class="seller">
-                <img src="materials/img/tuna-and-cassava-couscous.jpeg" alt="">
-                <p>price: 300-700+ xof</p>
-                <p>orders: 30</p>
-                <p>seller: Ali</p>
+                <span class="img-seller-container">
+                    <img  src="materials/img/images.jpeg" alt="">
+                </span>
+                <div class="info">
+                    <p>price: 300-900+ xof</p>
+                    <p>orders: 230</p>
+                    <p>seller: Mohamed</p>
+                </div>
+                <div class="action"><button class="order"><a href="#">Commander</a></button></div>
             </div>
-        </section>
+        </div>
     </section>
 
     <footer>
