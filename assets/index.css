@@ -1,7 +1,10 @@
+
 header {
     display: flex;
     justify-content: right;
-    background-color: #21BF73;
+    padding: 10px;
+    background: rgb(33,191,82);
+    background: linear-gradient(90deg, rgba(33,191,82,1) 1%, rgba(33,191,145,1) 39%, rgba(33,191,151,1) 100%);
 }
 
 nav {
@@ -38,6 +41,7 @@ li a:hover{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    height: auto;
 
 }
 
@@ -46,52 +50,97 @@ li a:hover{
 }
 
 .top-banner img {
-    width: 46vw;
+    width: 50vw;
 }
 
+.poster-container img {
+    margin: 8%;
+    width: 40vw;
+}
 
 .home-title {
+    text-align: center;
     font-size: 4em;
+    margin: 15% 0 5% 0;
     width: auto;
 }
 
-.home-title, p{
+.home-content p{
     text-align: center;
-    margin: 60px 30px;
+    margin: 10px 30px;
 }
 
 .top-banner p {
-    font-size: 25px;
+    font-size: 30px;
     color: black;
 }
 
-.arrow-container {
+.arrow-container{
     display: flex;
     justify-content: center;
 }
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 50px 0 0 0;
+}
+
+.button-container > button {
+    padding: 20px;
+    border: none;
+    font-size: 15px;
+    background-color: #e6e6e6;
+    text-align: center;
+    color: rgb(29, 29, 29);
+    transition: .3s ;
+}
+
+.button-container > button:hover {
+    padding: 20px;
+    border: none;
+    font-size: 15px;
+    background-color: #FD5E53;
+    text-align: center;
+    color: #FFFF;
+}
+
 .home-content i {
     font-size: 40px;
+    margin-top: 10px;
 }
 
 .home-content a {
     text-decoration: none;
     color: inherit;
 }
+
+.social-links {
+    display: flex;
+    width: 100%;
+    justify-content: center; 
+}
+
+.social-links img {
+    width: 25px;
+    margin: 20px 10px;
+}
  /* ------- */
 
 .container-sellers {
     width: 100%;
     padding: 20px 0px;
-    height: 80vh;
+    height: 90vh;
     background-color: #21BF73;
 }
 
-.container-sellers h3 {
+.container-sellers h2 {
     font-weight: 400;
-    font-size: 2em;
+    font-size: 4em;
     color: #FFFF;
     text-align: center;
-    margin: 30px;
+    margin: 0 0 50px 0;
 }
 
 .sellers{
@@ -99,8 +148,9 @@ li a:hover{
     flex-wrap: wrap;
 }
 
-.sellers img {
-    width: 8rem;
+.img-seller-container img {
+    margin-top: 20px;
+    width: 9rem;
 }
 
 .seller {
@@ -118,6 +168,7 @@ li a:hover{
     width: 60%;
     margin: 15px auto;
     height: auto;
+    text-align: center;
 }
 
 .info p {
@@ -154,16 +205,68 @@ li a:hover{
     border: none;
     text-align: center;
     color: #FFFF;
+    transition: .3s;
+}
+
+.order:hover {
+    padding: 10px;
+    background-color: #fc3a2d;
+    border: none;
+    text-align: center;
+    color: #FFFF;
 }
 
 .action {
-    margin: auto;
+    margin: 4vh auto 6vh auto;
     width: 60%;
     display: flex;
     justify-content: center;
 }
 
+
 button a {
     text-decoration: none;
     color: inherit;
+}
+
+/* .wave-container {
+    background-color: #21BF73;
+}*/
+.wave-container > svg {
+    display: block;
+}
+
+.markey {
+      background-color: none;
+      font-weight: 400;
+      color: yellow
+}
+
+.review-stars {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2vh;
+}
+
+.star {
+    width: 15px;
+    margin: 5px;
+
+}
+
+.star {
+    flex: 1;
+}
+
+
+
+
+
+
+footer {
+    padding: 30px;
+    text-align: center;
+    font-weight: 300;
+    background-color: #ececec;
+    color:rgb(29, 29, 29);
 }
