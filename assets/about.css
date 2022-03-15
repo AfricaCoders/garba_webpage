@@ -34,7 +34,9 @@ li a:hover{
 }
 
 .container{
-    height: 100vh;
+    height: auto;
+    width: 80%;
+    margin: auto;
 }
 
 h1 {
@@ -42,4 +44,53 @@ h1 {
     font-size: 3em;
     text-align: center;
     margin: 5%;
+}
+
+.about-title {
+    display: block;
+    margin-bottom: 10px;
+    color: #FD5E53;
+    font-weight: 300;
+}
+
+.description-container {
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 0 10px 0 rgba(27, 255, 141, 0.3);
+    transition: box-shadow 500ms;
+}
+
+.description-container:hover{
+    box-shadow: 0 10px 50px 0 rgba(9, 243, 126, 0.473);
+}
+
+.description,
+.img-desc {
+    flex: 1;
+}
+
+.description {
+    display: block;
+}
+
+.img-desc {
+    width: 50%;
+}
+
+.description {
+    text-align: left;
+    padding: 80px 65px 65px 20px;
+
+}
+
+.social-links {
+    display: flex;
+    width: 100%;
+    justify-content: center; 
+    margin: 3em 0;
+}
+
+.social-links img {
+    width: 25px;
+    margin: 0px 10px;
 }

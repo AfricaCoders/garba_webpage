@@ -1,39 +1,4 @@
 
-header {
-    display: flex;
-    justify-content: right;
-    padding: 10px;
-    background: rgb(33,191,82);
-    background: linear-gradient(90deg, rgba(33,191,82,1) 1%, rgba(33,191,145,1) 39%, rgba(33,191,151,1) 100%);
-}
-
-nav {
-    padding: 20px;
-    width: 50%;
-    justify-content: right;
-    text-align: right;
-}
-
-nav ul {
-    display: flex;
-    list-style: none;
-    color: #FFFF;
-    justify-content: right;
-}
-
-li a {
-    font-size: 1.3rem;
-    margin: 20px 10px;
-    text-decoration: none;
-    color: inherit;
-}
-
-li a:hover{
-    color: #FD5E53;
-    padding-bottom: 5px;
-    border-bottom: 3px solid #FD5E53;
-}
-
 .top-banner {
     background-color: #FFFF;
     color: #FD5E53;
@@ -87,7 +52,7 @@ li a:hover{
     margin: 50px 0 0 0;
 }
 
-.button-container > button {
+.button-container > a button {
     padding: 20px;
     border: none;
     font-size: 15px;
@@ -97,9 +62,10 @@ li a:hover{
     transition: .3s ;
 }
 
-.button-container > button:hover {
+.button-container > a button:hover {
     padding: 20px;
     border: none;
+    cursor: pointer;
     font-size: 15px;
     background-color: #FD5E53;
     text-align: center;
@@ -256,17 +222,4 @@ button a {
 
 .star {
     flex: 1;
-}
-
-
-
-
-
-
-footer {
-    padding: 30px;
-    text-align: center;
-    font-weight: 300;
-    background-color: #ececec;
-    color:rgb(29, 29, 29);
 }
