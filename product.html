@@ -4,34 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/index.css">
+    <link rel="stylesheet" href="assets/global.css">
+    <link rel="stylesheet" href="assets/product.css">
     <title>Ali Garba</title>
 </head>
 <body>
-    <header></header>
+    <header class="top-menu">
+        <nav>
+            <ul>
+                <li><a href="index.html"><li>Home</li></a></li>
+                <li><a href="about.html"><li>About</li></a></li> 
+            </ul>
+        </nav>
+    </header>
     <section class="container">
         <div class="profile-picture">
-            <img src="materials/img/20190315_103816_0001812850605.png" alt="">
+            <img class="profile-pic" src="materials/img/images.jpeg" alt="">
+            <div class="review-stars">
+                <span><img src="materials/img/favourite.png"  class="star" alt="" srcset=""></span>
+                <span><img src="materials/img/favourite.png"  class="star" alt="" srcset=""></span>
+                <span><img src="materials/img/favourite.png"  class="star" alt="" srcset=""></span>
+            </div>
+            <p class="Name of seller">Ali</p>
         </div>
-        <p class="Name of seller">Ali</p>
+
         <div class="info-menu">
             <div class="food">
                 <span class="type-food">Pour les enfants</span>
                 <span class="price-food">300 XOF</span>
-                <button>order</button>
+                <button class="order-action"><a href="#">Commander</a></button>
             </div>
             <div class="food">
                 <span class="type-food">Petite faim</span>
                 <span class="price-food">400 XOF</span>
-                <button>order</button>
+                <button class="order-action"><a href="#"> Commander</a></button>
             </div>
             <div class="food">
                 <span class="type-food">Un Coup KO</span>
                 <span class="price-food">500 XOF</span>
-                <button>order</button>
+                <button class="order-action"><a href="#"> Commander</a></button>
             </div>
         </div>
     </section>
-    <footer></footer>
+    <footer>
+        <p>Powered by Code With Africa.</p>
+    </footer>
 </body>
 </html>

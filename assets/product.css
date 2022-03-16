@@ -1,0 +1,70 @@
+.container {
+    height: 80vh;
+    width: 60%;
+    margin: auto;
+}
+
+.profile-picture {  
+    text-align: center;
+}
+
+.profile-picture p {
+    margin: 15px;
+    font-size: 25px;
+}
+
+.profile-pic {
+    width: 10em;
+    margin-top: 5%;
+}
+
+.info-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-menu > div {
+    width: 50%;
+    border: 1px green dashed;
+    margin: auto;
+    padding: 15px;
+    background-color: rgba(218, 255, 237, 0.342);
+    display: flex;
+}
+
+.type-food,
+.price-food { 
+    flex: 2;
+}
+
+.order-action {
+    flex: 1;
+    width: 20px;
+    padding: 5px;
+    border: none;
+    background-color: #FD5E53;
+
+    color: #FFFF;
+}
+
+
+.review-stars {
+    display: flex;
+    justify-content: center;
+    margin: 2vh 0;
+}
+
+.star {
+    width: 15px;
+    margin: 5px;
+
+}
+
+.star {
+    flex: 1;
+}
+
+.food a {
+    text-decoration: none;
+    color: inherit;
+}
