@@ -1,7 +1,7 @@
 .container {
-    height: 80vh;
+    height: auto;
     width: 60%;
-    margin: auto;
+    margin: 10% auto;
 }
 
 .profile-picture {  
@@ -24,7 +24,7 @@
 }
 
 .info-menu > div {
-    width: 50%;
+    width: 80%;
     border: 1px green dashed;
     margin: auto;
     padding: 15px;
@@ -34,13 +34,13 @@
 
 .type-food,
 .price-food { 
-    flex: 2;
+    flex: 1;
 }
 
 .order-action {
     flex: 1;
     width: 20px;
-    padding: 5px;
+    padding: 10px;
     border: none;
     background-color: #FD5E53;
 
@@ -67,4 +67,31 @@
 .food a {
     text-decoration: none;
     color: inherit;
+}
+
+@media screen and (max-width: 481px) {
+
+    .container {
+        width: 90% ;
+    }
+    
+    .info-menu > div {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1020px) {
+
+    .container {
+        width: 75% ;
+    }
+
+    .info-menu > div {
+        width: 60%;
+    }
+
+    .type-food,
+    .price-food { 
+        flex: 2;
+    }
 }
