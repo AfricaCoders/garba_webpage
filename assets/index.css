@@ -119,6 +119,7 @@
 
 .seller {
     flex: 1;
+    margin: 30px;
 }
 
 .img-seller-container {
@@ -223,7 +224,7 @@ button a {
 }
 
 @media screen and (max-width: 720px) {
-
+    
     .poster-container {
         display: flex;
         justify-content: center;
@@ -241,6 +242,7 @@ button a {
     .container-sellers h2 {
         font-size: 15vw;
     }
+    
 }
 
 
@@ -252,5 +254,6 @@ button a {
         font-size: 3em;
         margin: 20% 0 5% 0;
     }
+
 }
 
