@@ -109,7 +109,6 @@ footer {
     position: absolute;
     top: 0;
     right: 0;
-    z-index: 1000;
 
 }
 
@@ -128,6 +127,28 @@ footer {
     overflow: hidden;
 }
 
+
+.cross-sign-menu {
+    width: 15px;
+    margin: 10px;
+    float: right;
+}
+
+.nav-mobile {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.nav-mobile ul {
+    text-decoration: none;
+    list-style: none;
+    display: block;
+    margin: auto;
+    font-size: 4em;
+    margin-top: 30vh;
+    color: #ffff;
+}
 @media screen and (max-width: 720px) {
 
     .popup {
