@@ -1,8 +1,7 @@
 # Ton Garba Au Calme Plateforme.
 
-Un tutoriel simple pour débutant qui montre dans la pratique comment appliquer HTML5/CSS3/Javascript pour mettre en place une plateforme de restauration où les utilisateurs peuvent commander des plats communement appelés GARBA. 
+Un tutoriel simple pour débutant qui montre dans la pratique comment appliquer directement HTML5/CSS3/Javascript et mettre en place une plateforme de restauration où les utilisateurs peuvent commander des plats communement appelés GARBA. 
 Enjoy !!
-
 
 ---
 
@@ -15,22 +14,19 @@ click here for live demo ==> https://africacoders.github.io/garba_webpage/
 ![About](D.png)
 
 ## Pré-requis
-- Aucun mais si vous avez une idée de la programmation c'est pas mauvais.
+- Aucun prérequis n'est necessaire, vu que vous avez les details dans le tutoriel.
 
 ## Install & Dependence
-- Vs Code ou un autre éditeur
-- ...
-- 
+- On passera tout en revue.
+
 
 ## Utiliser ce repertoire
 - D'abord vous devez "fork le projet"
   ```
-  
+    git clone https://github.com/AfricaCoders/garba_webpage.git
   ```
-- for test
-  ```
-  python test.py
-  ```
+- Ensuite rendez-vous dans le dossier copié et ensuite vous pouvez le modifier
+
 
 ## License
 MIT
@@ -38,5 +34,5 @@ MIT
 ## Auteur
 
 ```
-Code with Africa
+Code with Africa @ Anvi Alex
 ```
