@@ -211,15 +211,25 @@ button a {
     display: flex;
     justify-content: center;
     margin-bottom: 2vh;
-}
-
-.star {
-    width: 15px;
-    margin: 5px;
 
 }
 
+
+.review-stars span {
+    display: flex;
+    flex-direction: row;
+    width: 3vw;
+}
 .star {
+    
+    width: 2vw;
+    height: 2vh;
+    margin: 8px 5px 5px 5px;
+
+}
+
+.star,
+.number-star {
     flex: 1;
 }
 
@@ -253,6 +263,9 @@ button a {
     .home-title {
         font-size: 3em;
         margin: 20% 0 5% 0;
+    }
+    .review-stars span {
+        flex-direction: column;
     }
 
 }

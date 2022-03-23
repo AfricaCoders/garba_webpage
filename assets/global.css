@@ -77,16 +77,39 @@ footer {
     display: none;
     z-index: 1;
     top: 20%;
-    margin-right: 0;
-    margin-left: 0;
+    margin-right: 5px;
+    margin-left: 5px;
     left: 0;
     right: 0;
+    color: rgba(15, 127, 161, 0.685);
     margin: auto;
     text-align: center;
     position: fixed;
-    max-width: 35vw;
+    width: 350px;
     height: auto;
-    background-color: orange;
+    background-color: #ffff;
+    border: 1px solid #FD5E53;
+}
+
+
+.popup h3 {
+    margin: 30px;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.popup p {
+    color: #000;
+    margin: 30px;
+}
+
+.popup button {
+    padding: 10px;
+    margin-bottom: 20px ;
+    background-color: #FD5E53;
+    color: #ffff;
+    border: none;
+    cursor: pointer;
 }
 
 .menu-bar{
@@ -96,8 +119,8 @@ footer {
 .cancel-popup img {
     width: 8%;
     position: absolute;
-    top: -10px;
-    right: -10px;
+    top: 10px;
+    right: 10px;
 }
 
 .promo img {
