@@ -38,12 +38,11 @@ async function getInfo(){
             console.log(seller.stars);
             for(let i = 0; i < seller.stars; i ++){
                 star_contain.innerHTML += img_star;
-                
             }
             info_box.innerHTML += `
-            <p>price: ${seller.price}</p>
-            <p>orders: <span class="markey">${seller.orders}</span></p>
-            <p>seller: ${seller.name}</p>
+            <p><span class="markey price">${seller.price}</span></p>
+            <p>Nombre de Ventes: <span class="markey">${seller.orders}</span></p>
+            <p>Vendeur: <span class="markey">${seller.name}</span></p>
             </div>
             <div class="action"><button class="order"><a href="product.html">Commander</a></button></div>
 

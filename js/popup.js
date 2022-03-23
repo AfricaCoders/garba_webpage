@@ -4,11 +4,13 @@ popup.className = 'popup';
 const illustration = document.createElement('span');
 button_cancel = document.createElement('button');
 button_cancel.className = 'canc';
-button_cancel.innerText = 'Accept and close'
+button_cancel.innerText = 'Accepter'
 illustration.className = 'promo';
 illustration.innerHTML = `
-    <h3>Cookie Usage</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id tellus non nibh varius cursus. Pellentesque consectetur, risus ut pellentesque finibus, massa mauris congue sapien, sit amet consequat justo nulla a risus. Cras sem massa, consectetur in eleifend vitae, tempor quis dui. Praesent placerat blandit mauris, in efficitur lectus consectetur quis. Nullam at pharetra enim.</p>
+    <h3>Usage de Cookies</h3>
+    <p>Nous et certains tiers utilisons des cookies ou des technologies similaires à des fins techniques et, avec votre consentement, à d'autres fins pour mieux vous offrir une meilleure expérience, comme indiqué dans la politique en matière de cookies.
+
+    Vous pouvez consentir à l'utilisation de ces technologies en utilisant le bouton "Accepter". En fermant cet avis, vous continuez sans accepter.</p>
     `;
 
 const cancel_popup = document.createElement('div');
