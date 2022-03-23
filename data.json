@@ -1,0 +1,30 @@
+ [
+    {
+        "id": 1,
+        "name": "Ali",
+        "price": "300-700+ xof",
+        "orders": 30,
+        "stars": 3
+    },
+    {
+        "id": 2,
+        "name": "Maha",
+        "price": "200-500 xof",
+        "orders": 20,
+        "stars": 2
+    },
+    {
+        "id": 3,
+        "name": "Khady",
+        "price": "500-1700+ xof",
+        "orders": 430,
+        "stars": 5
+    },
+    {
+        "id": 4,
+        "name": "Moham",
+        "price": "300-900+ xof",
+        "orders": 230,
+        "stars": 3
+    }
+]
