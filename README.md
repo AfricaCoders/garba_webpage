@@ -3,7 +3,12 @@
 Un tutoriel simple pour débutant qui montre dans la pratique comment appliquer HTML5/CSS3/Javascript pour mettre en place une plateforme de restauration où les utilisateurs peuvent commander des plats communement appelés GARBA. 
 Enjoy !!
 
+
 ---
+
+## Live DEMO 
+click here for live demo ==> https://africacoders.github.io/garba_webpage/
+
 ## Screenshots
 ![homepage](A.png)
 ![section](B.png)
