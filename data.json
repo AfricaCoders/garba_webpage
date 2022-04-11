@@ -17,14 +17,14 @@
         "id": 3,
         "name": "Khady",
         "price": "500-1700+ xof",
-        "orders": 430,
+        "orders": 43,
         "stars": 5
     },
     {
         "id": 4,
         "name": "Moham",
         "price": "300-900+ xof",
-        "orders": 230,
+        "orders": 23,
         "stars": 3
     }
 ]
